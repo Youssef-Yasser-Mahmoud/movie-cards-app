@@ -1,0 +1,13 @@
+import React from "react";
+import "./loading.css";
+class Loading extends React.Component {
+  render() {
+    return (
+      <div className="loading-container">
+        <div className="spinner"></div>
+        <p>Loading...</p>
+      </div>
+    );
+  }
+}
+export default Loading;
