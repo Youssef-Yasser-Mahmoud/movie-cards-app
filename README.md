@@ -16,8 +16,7 @@ A simple movie listing web application built with **React class components**, sh
 
 ## 📸 Preview
 
-![screenshot](./preview.png)  
-> _(Add your own screenshot or preview image here)_
+![screenshot](public/fullScreenShot.png)  
 
 ---
 
