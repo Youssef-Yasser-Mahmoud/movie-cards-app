@@ -1,0 +1,55 @@
+/* card.css */
+body {
+  background-color: #f9f9f9;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: #1e1e2f;
+  margin-top: 30px;
+  font-size: 2.5rem;
+}
+
+.cards-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+  padding: 30px 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.container {
+  width: 260px;
+  cursor: pointer;
+  background-color: #ffffff;
+  border-radius: 14px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.container:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+.image img {
+  width: 100%;
+  height: 390px;
+  object-fit: cover;
+}
+
+.container p {
+  margin: 8px 16px;
+  color: #333;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.container p strong {
+  color: #111;
+}
